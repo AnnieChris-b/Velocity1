@@ -1,0 +1,115 @@
+
+
+/* Reset some basic styles */
+body, h1, h2, p, ul, li, nav, header, footer, main, section, article {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Body styling */
+body {
+    background: linear-gradient(to right, #eef2f3, #d9e4ea);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* Navigation styling */
+nav {
+    background: #34495e;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #1abc9c;
+    color: red;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Sections */
+section {
+    margin-bottom: 25px;
+}
+
+
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    background: #1abc9c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: #148f77;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 20px;
+    }
+}
